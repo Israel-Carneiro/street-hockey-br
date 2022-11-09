@@ -1,0 +1,80 @@
+:root {
+
+    --lexend-deca: 'Lexend Deca';
+    --open-sans: 'Open Sans';
+    --roboto-slab: 'Roboto Slab';
+    --shadows-into-light: 'Shadows Into Light';
+}
+
+
+body {
+    background-color: rgb(84, 147, 84);
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 3rem 1rem 3rem;
+    font-family: var(--shadows-into-light);
+    font-size: 1.5rem;
+}
+
+.cabecalho img {
+    height: 50px;
+}
+
+main {
+}
+
+.topicos {
+    color: white;
+    height: 12rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.topicos h1 {
+    font-size: 2rem;
+}
+
+.topicos h2 {
+    font-size: 1.5rem;
+}
+
+.street {
+    filter: opacity(30%);
+    background-image: url(./images/StreetHockey.jpg);
+    background-position: 0% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.regras {
+    filter: opacity(30%);
+    background-image: url(./images/Regras.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.equipamentos {
+    filter: opacity(30%);
+    background-image: url(./images/Equipamentos.jpg);
+    background-position: 0% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.onde {
+    filter: opacity(30%);
+    background-image: url(./images/OndeJogamos.jpg);
+    background-position: 0% 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
