@@ -41,41 +41,59 @@ body {
 }
 
 .topicos h1 {
+    font-family: var(--roboto-slab);
+    text-align: center;
     font-size: 2rem;
+    margin: .5rem;
 }
 
 .topicos h2 {
+    font-family: var(--roboto-slab);
     font-size: 1.5rem;
+    margin: .5rem;
 }
 
-.street {
-    filter: opacity(30%);
-    background-image: url(./images/StreetHockey.jpg);
-    background-position: 0% 60%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.street__pic {
+    border-radius: 15px 0 0 15px;
 }
 
-.regras {
-    filter: opacity(30%);
-    background-image: url(./images/Regras.jpg);
-    background-position: 0% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.street__text {
+    width: 70%;
+    margin: 2rem;
+    font-family: var(--open-sans);
 }
 
-.equipamentos {
-    filter: opacity(30%);
-    background-image: url(./images/Equipamentos.jpg);
-    background-position: 0% 35%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.regras__text {
+    width: 70%;
+    margin: 2rem;
+    font-family: var(--open-sans);
 }
 
-.onde {
-    filter: opacity(30%);
-    background-image: url(./images/OndeJogamos.jpg);
-    background-position: 0% 45%;
-    background-size: cover;
-    background-repeat: no-repeat;
+.regras__pic {
+    border-radius: 0 15px 15px 0;
+}
+
+.equipamentos__pic {
+    border-radius: 15px 0 0 15px;
+}
+
+.equipamentos__text {
+    width: 70%;
+    margin: 2rem;
+    font-family: var(--open-sans);
+}
+
+.onde__text {
+    width: 70%;
+    margin: 2rem;
+    font-family: var(--open-sans);
+}
+
+.onde__pic {
+    border-radius: 0 15px 15px 0;
+}
+
+footer {
+    padding: 2rem;
+    background-color: var(--preto);
 }
