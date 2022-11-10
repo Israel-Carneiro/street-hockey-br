@@ -10,17 +10,18 @@
     --shadows-into-light: 'Shadows Into Light';
 }
 
-
 body {
-    background-color: rgb(84, 147, 84);
+    background-color: var(--verde-claro);
+    color: var(--branco);
 }
 
-header {
-    background-color: black;
-    color: white;
+.cabecalho img {
+    height: 50px;
 }
 
 .cabecalho {
+    color: var(--branco);
+    background-color: var(--preto);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,18 +30,14 @@ header {
     font-size: 1.5rem;
 }
 
-.cabecalho img {
-    height: 50px;
-}
-
-main {
-}
-
 .topicos {
-    color: white;
-    height: 12rem;
+    background-color: var(--verde);
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
+    border-radius: 25px;
 }
 
 .topicos h1 {
