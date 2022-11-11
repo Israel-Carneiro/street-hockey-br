@@ -5,13 +5,17 @@
 </p>
 
 ```
-Este será o meu blog sobre Street Hockey no Brasil
+Blog sobre Street Hockey no Brasil
 
-Como é o esporte?
-O que os jogadores fazem de diferente do Hockey no gelo?
-Onde jogam?
+Esta pagina tem como objetivo a divuldação do esporte e do Circuito Capixaba de Street Hockey, realizado atualmente nas cidades de
+Vitória e Vila Velha - ES
 
-Tudo isso e muito mais aqui no Globo Report... Quer dizer, logo, logo fica pronto! 😅
+Ao decorrer dos tópicos serão abordados temas como:
+-As diferenças entre as modalidades de Hockey na rua, no gelo, em linha e na grama;
+-As regras que definem o Street Hockey;
+-Os equipamentos essenciais e opcionais para os jogadores;
+-Informações a respeito do Circuito Capixaba e suas Etapas periódicas;
+-Informações de contato;
 ```
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/Israel-Carneiro/street-hockey-br?style=social)
