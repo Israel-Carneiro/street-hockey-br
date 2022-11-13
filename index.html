@@ -11,8 +11,8 @@
 
     <title>Street Hockey BR</title>
 </head>
-<body>
-    <header>
+<body class="grid_conteiner">
+    <header class="grid_cabecalho">
         <ul class="cabecalho">
             <img src="./images/StreetHockeyBrasilLogo.jpg">
             <li><a href="#street">Street Hockey</a></li>
@@ -22,9 +22,11 @@
         </ul>
     </header>
 
-    <main>
-        <div class="topicos" id="street">
-            <img class="street__pic" src="./images/StreetHockey.jpg"/>
+    
+    <div class="grid_imagem"></div>
+    <section class="grid_side-bar"><h1>Esta é a barra lateral</h1></section>
+    <main class="grid_corpo">
+        <section class="topicos" id="street">
             <div class="street__text">
                 <h1>Street Hockey</h1>
                 <p>Surgiu como uma necessidade de jogar Hockey durante as estações quentes</p>
@@ -33,9 +35,9 @@
                 <h3>Em linha</h3>
                 <h3>Na grama</h3>
             </div>
-        </div>
-        <div class="topicos" id="regras">
-            <div class="regras__text">
+        </section>
+        <section class="topicos" id="regras">
+            <div class="topicos__text">
                 <h1>Regras do Jogo</h1>
                 <p>Improvisável</p>
                 <h2>Jogadores</h2>
@@ -45,20 +47,20 @@
                 <h2>Pontos</h2>
                 <h2>Banco de reserva</h2>
             </div>
-            <img class="regras__pic" src="./images/Regras.jpg">
-        </div>
-        <div class="topicos" id="equipamentos">
-            <img class="equipamentos__pic" src="./images/Equipamentos.jpg">
-            <div class="equipamentos__text">
+            <img class="topicos__pic-right" src="./images/Regras.jpg">
+        </section>
+        <section class="topicos" id="equipamentos">
+            <img class="topicos__pic-left" src="./images/Equipamentos.jpg">
+            <div class="topicos__text">
                 <h1>Equipamentos</h1>
                 <p>Há equipamentos básicos e opcionais para se jogar</p>
                 <h2>Essenciais para a partida</h2>
                 <h2>Essenciais para o jogador</h2>
                 <h2>Opcionais para o jogador</h2>
             </div>
-        </div>
-        <div class="topicos" id="onde">
-            <div class="onde__text">
+        </section>
+        <section class="topicos" id="onde">
+            <div class="topicos__text">
                 <h1>Onde Jogamos</h1>
                 <h2>Circuito Capixaba de Street Hockey</h2>
                 <p>Campeonato aberto ao publico. Basta ter o patins e equipamentos de protecao essenciais. Os tacos sao disponibilizados</p>
@@ -66,11 +68,11 @@
                 <h3>Vila Velha</h3>
                 <h3>Vitoria</h3>
             </div>
-            <img class="onde__pic" src="./images/OndeJogamos.jpg">
-        </div>
+            <img class="topicos__pic-right" src="./images/OndeJogamos.jpg">
+        </section>
     </main>
 
-    <footer>
+    <footer class="grid_rodape">
         <p>Parceria: Lúdika Sport</p>
     </footer>
 
