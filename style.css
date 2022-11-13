@@ -78,6 +78,8 @@
 .grid_side-bar .botao {
     margin: 1rem;
     border: none;
+    font-size: 2rem;
+    color: var(--verde);
     font-family: var(--roboto-slab);
     background-color: var(--branco);
 }
