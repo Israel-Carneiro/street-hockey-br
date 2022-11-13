@@ -10,28 +10,56 @@
     --shadows-into-light: 'Shadows Into Light';
 }
 
-body {
+.grid_conteiner {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 7em 40em 70% 5%;
+    grid-template-areas: 
+    "cabecalho cabecalho"
+    "imagem imagem"
+    "side-bar corpo"
+    "rodape rodape";
     background-color: var(--verde-claro);
-    color: var(--branco);
 }
 
-.cabecalho img {
-    height: 50px;
+.grid_cabecalho {
+    grid-area: cabecalho;
+    padding: 1rem 3rem 1rem 3rem;
+    font-family: var(--shadows-into-light);
+    background-color: var(--preto);
+    font-size: 1.75rem;
 }
 
 .cabecalho {
-    color: var(--branco);
-    background-color: var(--preto);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 3rem 1rem 3rem;
-    font-family: var(--shadows-into-light);
-    font-size: 1.5rem;
+}
+
+.cabecalho img {
+    height: 80px;
+}
+
+.grid_imagem {
+    grid-area: imagem;
+    background-image: url(./images/StreetHockey.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.grid_side-bar {
+    grid-area: side-bar;
+}
+
+.grid_corpo {
+    grid-area: corpo;
 }
 
 .topicos {
-    background-color: var(--verde);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     height: 20rem;
@@ -40,60 +68,44 @@ body {
     border-radius: 25px;
 }
 
+.street__text {
+    width: 100%;
+    margin: 2rem;
+    text-align: center;
+    font-family: var(--open-sans);
+}
+
 .topicos h1 {
     font-family: var(--roboto-slab);
     text-align: center;
     font-size: 2rem;
-    margin: .5rem;
+    margin-bottom: .5rem;
 }
 
 .topicos h2 {
     font-family: var(--roboto-slab);
     font-size: 1.5rem;
-    margin: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
 }
 
-.street__pic {
-    border-radius: 15px 0 0 15px;
-}
-
-.street__text {
+.topicos__text {
     width: 70%;
     margin: 2rem;
     font-family: var(--open-sans);
 }
 
-.regras__text {
-    width: 70%;
-    margin: 2rem;
-    font-family: var(--open-sans);
-}
-
-.regras__pic {
+.topicos__pic-right {
     border-radius: 0 15px 15px 0;
 }
 
-.equipamentos__pic {
+.topicos__pic-left {
     border-radius: 15px 0 0 15px;
 }
 
-.equipamentos__text {
-    width: 70%;
-    margin: 2rem;
-    font-family: var(--open-sans);
-}
-
-.onde__text {
-    width: 70%;
-    margin: 2rem;
-    font-family: var(--open-sans);
-}
-
-.onde__pic {
-    border-radius: 0 15px 15px 0;
-}
-
-footer {
+.grid_rodape {
+    grid-area: rodape;
     padding: 2rem;
+    color: var(--branco);
     background-color: var(--preto);
 }
