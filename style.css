@@ -3,6 +3,7 @@
     --preto: #000000;
     --verde-claro: #14DE70;
     --verde: #48b814;
+    --laranja: #f77777;
 
     --lexend-deca: 'Lexend Deca';
     --open-sans: 'Open Sans';
@@ -27,9 +28,7 @@
 .grid_cabecalho {
     grid-area: cabecalho;
     padding: 1rem 3rem 1rem 3rem;
-    font-family: var(--shadows-into-light);
     background-color: var(--preto);
-    font-size: 1.75rem;
 }
 
 .cabecalho {
@@ -42,6 +41,13 @@
     height: 80px;
 }
 
+.botao {
+    font-family: var(--shadows-into-light);
+    font-size: 1.75rem;
+    color: var(--branco);
+    background-color: var(--preto);
+}
+
 .grid_imagem {
     grid-area: imagem;
     background-image: url(./images/StreetHockey.jpg);
@@ -50,29 +56,20 @@
     background-size: 100%;
 }
 
-.grid_side-bar {
-    grid-area: side-bar;
-}
+.grid_side-bar {}
 
 .grid_corpo {
     grid-area: corpo;
 }
 
 .topicos {
-    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     height: 20rem;
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 25px;
-}
-
-.street__text {
-    width: 100%;
-    margin: 2rem;
-    text-align: center;
-    font-family: var(--open-sans);
+    background-color: var(--branco);
 }
 
 .topicos h1 {
@@ -87,6 +84,13 @@
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: .5rem;
+}
+
+.street__text {
+    width: 100%;
+    margin: 2rem;
+    text-align: center;
+    font-family: var(--open-sans);
 }
 
 .topicos__text {
@@ -108,4 +112,11 @@
     padding: 2rem;
     color: var(--branco);
     background-color: var(--preto);
+    font-family: var(--open-sans);
+}
+
+.grid_rodape button {
+    color: var(--laranja);
+    font-size: medium;
+    font-family: var(--open-sans);
 }
