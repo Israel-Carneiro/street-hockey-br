@@ -41,7 +41,7 @@
     height: 80px;
 }
 
-.botao {
+.cabecalho .botao {
     font-family: var(--shadows-into-light);
     font-size: 1.75rem;
     color: var(--branco);
@@ -56,7 +56,35 @@
     background-size: 100%;
 }
 
-.grid_side-bar {}
+.grid_side-bar {
+    grid-area: side-bar;
+    margin: 1rem 1rem 1rem 0;
+    padding: 1.5rem;
+    border-radius: 0 25px 25px 0;
+    background-color: var(--branco);
+}
+
+.grid_side-bar h1 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: var(--roboto-slab);
+}
+
+.grid_side-bar p {
+    margin-bottom: .5rem;
+    font-family: var(--open-sans);
+}
+
+.grid_side-bar .botao {
+    margin: 1rem;
+    border: none;
+    font-family: var(--roboto-slab);
+    background-color: var(--branco);
+}
+
+.israel__pic {
+    width: 100%;
+}
 
 .grid_corpo {
     grid-area: corpo;
@@ -115,8 +143,9 @@
     font-family: var(--open-sans);
 }
 
-.grid_rodape button {
+.grid_rodape .botao {
     color: var(--laranja);
     font-size: medium;
     font-family: var(--open-sans);
+    background-color: var(--preto);
 }
