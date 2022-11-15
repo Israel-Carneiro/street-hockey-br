@@ -4,13 +4,18 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
+<h2 align="center">Blog sobre Street Hockey no Brasil</h2>
+
+<h3>Objetivo Final do projeto:</h3>
+Divuldação da modalidade <b>Street Hockey</b> no Brasil e do <b>Circuito Capixaba de Street Hockey</b> realizado atualmente nas cidades de
+Vitória, Vila Velha e Serra - ES.
+
+<h3>Objetivo Principal do projeto:</h3>
+Desenvolvimento e aperfeiçoamento das técnicas envolvidas no uso da tecnologia utilizada durante todo o processo.<br><br>
+
+<h3>Ao decorrer dos tópicos serão abordados temas como:</h3>
+
 ```
-Blog sobre Street Hockey no Brasil
-
-Esta pagina tem como objetivo a divuldação do esporte e do Circuito Capixaba de Street Hockey, realizado atualmente nas cidades de
-Vitória e Vila Velha - ES
-
-Ao decorrer dos tópicos serão abordados temas como:
 -As diferenças entre as modalidades de Hockey na rua, no gelo, em linha e na grama;
 -As regras que definem o Street Hockey;
 -Os equipamentos essenciais e opcionais para os jogadores;
