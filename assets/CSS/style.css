@@ -79,6 +79,8 @@
     background-color: var(--branco);
 }
 
+#street:hover {}
+
 #regras {
     grid-area: regras;
     margin: 0 10px 5px 0;
@@ -93,6 +95,8 @@
 #regras h1 {
     background-color: var(--branco);
 }
+
+#regras:hover {}
 
 #equipamentos {
     grid-area: equipamentos;
@@ -109,6 +113,8 @@
     background-color: var(--branco);
 }
 
+#equipamentos:hover {}
+
 #onde {
     grid-area: onde;
     margin: 10px 10px 0 10px;
@@ -124,6 +130,8 @@
     background-color: var(--branco);
     margin-left: 1rem;
 }
+
+#onde:hover {}
 
 .pic-direita {
     grid-area: pic_left;
