@@ -75,6 +75,14 @@
     background-repeat: no-repeat;
 }
 
+#street button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
 #street h1 {
     background-color: var(--branco);
 }
@@ -90,6 +98,14 @@
     background-position: center;
     background-size: 85%;
     background-repeat: no-repeat;
+}
+
+#regras button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
 
 #regras h1 {
@@ -109,6 +125,14 @@
     background-repeat: no-repeat;
 }
 
+#equipamentos button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
 #equipamentos h1 {
     background-color: var(--branco);
 }
@@ -124,6 +148,14 @@
     background-position: 5%;
     background-size: 25%;
     background-repeat: no-repeat;
+}
+
+#onde button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
 
 #onde h1 {
