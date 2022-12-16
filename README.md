@@ -20,12 +20,7 @@ Vitória, Vila Velha e Serra - ES.
 -Informações de contato;
 ```
 
-<h4>Demonstração do projeto até o momento:</h4>
-<img height="500px" src="/assets/images/Esboço-Street-Hockey-Webpage2.png">
-
 <h3>Objetivo Principal do projeto:</h3>
 Desenvolvimento e aperfeiçoamento das técnicas envolvidas no uso da tecnologia utilizada durante todo o processo.
-
-<img height="400px" src="/assets/images/Esboço-Grid-Template-Area.png"><br><br>
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/Israel-Carneiro/street-hockey-br?style=social)
