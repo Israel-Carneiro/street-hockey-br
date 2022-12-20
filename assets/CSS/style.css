@@ -1,6 +1,9 @@
 .cabecalho {
     background-image: url(../images/Banner_mobile.jpeg);
-    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 90vh;
 }
 
 .cabecalho__menu {
