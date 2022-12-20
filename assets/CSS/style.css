@@ -10,9 +10,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem 0;
-    background-color: gray;
+    background-color: #1a2025;
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.6);
     color: white;
+    padding: 1rem 0;
 }
 
 .cabecalho img {
