@@ -1,0 +1,25 @@
+.cabecalho {
+    background-image: url(../images/Banner_mobile.jpeg);
+    height: 85vh;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: gray;
+    color: white;
+}
+
+.cabecalho img {
+    width: 4rem;
+}
+
+.cabecalho__titulo {
+    font-size: 2rem;
+}
+
+.menu__navegacao {
+    display: none;
+}
