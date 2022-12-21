@@ -25,5 +25,16 @@
 }
 
 .menu__navegacao {
-    display: none;
+    display: flex;
+    background-color: #15191ceb;
+    color: #ffffff;
+    width: 70vw;
+    height: 50vh;
+    position: absolute;
+    left: 100%;
+}
+
+.menu__navegacao-ativo {
+    left: 50vw;
+    transition: .25s;
 }
