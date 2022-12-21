@@ -1,3 +1,11 @@
+:root {
+    --branco: #FFFFFF;
+    --cinza-escuro: #1a2025;
+    --menu-navegacao: #15191ceb;
+
+    --montserrat: 'Montserrat';
+}
+
 .cabecalho {
     background-image: url(../images/Banner_mobile.jpeg);
     background-repeat: no-repeat;
@@ -10,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #1a2025;
+    background-color: var(--cinza-escuro);
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.6);
     color: white;
     padding: 1rem 0;
@@ -25,14 +33,14 @@
 }
 
 .botao__menu {
-    background-color: #1a2025;
+    background-color: var(--cinza-escuro);
     border: none;
 }
 
 .menu__navegacao {
     display: flex;
-    background-color: #15191ceb;
-    color: #ffffff;
+    background-color: var(--menu-navegacao);
+    color: var(--branco);
     width: 50vw;
     height: 50vh;
     position: absolute;
