@@ -16,7 +16,7 @@
     padding: 1rem 0;
 }
 
-.cabecalho img {
+.logo {
     width: 4rem;
 }
 
@@ -24,11 +24,16 @@
     font-size: 2rem;
 }
 
+.botao__menu {
+    background-color: #1a2025;
+    border: none;
+}
+
 .menu__navegacao {
     display: flex;
     background-color: #15191ceb;
     color: #ffffff;
-    width: 70vw;
+    width: 50vw;
     height: 50vh;
     position: absolute;
     left: 100%;
