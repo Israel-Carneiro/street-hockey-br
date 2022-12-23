@@ -2,7 +2,7 @@
     --branco: #FFFFFF;
     --cinza-escuro: #1a2025;
     --menu-navegacao: #15191ceb;
-
+    --preto-sombra: rgba(0, 0, 0, 0.6);
     --montserrat: 'Montserrat';
     --lobster: 'Lobster';
 }
@@ -24,7 +24,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--cinza-escuro);
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 8px 4px var(--preto-sombra);
     color: white;
     padding: 1rem 0;
 }
