@@ -38,11 +38,6 @@ body {
     font-family: var(--lobster);
 }
 
-.botao__menu {
-    background-color: var(--cinza-escuro);
-    border: none;
-}
-
 .menu__navegacao {
     display: flex;
     background-color: var(--menu-navegacao);
@@ -53,7 +48,12 @@ body {
     left: 100%;
 }
 
+.botao__menu:checked~.menu__navegacao {
+    left: 50%;
+}
+/*
 .menu__navegacao-ativo {
     left: 50vw;
     transition: .25s;
 }
+*/
