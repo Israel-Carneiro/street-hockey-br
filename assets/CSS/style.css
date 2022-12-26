@@ -42,11 +42,19 @@ body {
     display: none;
     background-color: var(--menu-navegacao);
     color: var(--branco);
-    width: 50vw;
-    height: 50vh;
+    width: 60vw;
     position: absolute;
     top: 100%;
-    left: 50%;
+    left: 40%;
+}
+
+.menu__navegacao--lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__navegacao--item {
+    padding: 1rem;
 }
 
 .botao__menu {
@@ -64,9 +72,3 @@ body {
     background-position: left bottom;
     height: 70vh;
 }
-/*
-.menu__navegacao-ativo {
-    left: 50vw;
-    transition: .25s;
-}
-*/
