@@ -11,14 +11,6 @@ body {
     font-family: var(--montserrat);
 }
 
-.banner {
-    background-image: url(../images/Banner_mobile.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left bottom;
-    height: 75vh;
-}
-
 .cabecalho__menu {
     display: flex;
     justify-content: space-evenly;
@@ -63,6 +55,14 @@ body {
 
 .botao__menu:checked~.menu__navegacao {
     display: block;
+}
+
+.banner {
+    background-image: url(../images/Banner_mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 70vh;
 }
 /*
 .menu__navegacao-ativo {
