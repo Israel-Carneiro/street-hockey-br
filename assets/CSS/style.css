@@ -38,8 +38,15 @@ body {
     font-family: var(--lobster);
 }
 
+.imagem__menu--mobile {
+    padding: 1rem;
+    background-image: url(../images/menu.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .menu__navegacao {
-    display: flex;
+    display: none;
     background-color: var(--menu-navegacao);
     color: var(--branco);
     width: 50vw;
@@ -48,8 +55,8 @@ body {
     left: 100%;
 }
 
-.botao__menu:checked~.menu__navegacao {
-    left: 50%;
+.botao__menu:checked ~ .menu__navegacao {
+    display: block;
 }
 /*
 .menu__navegacao-ativo {
