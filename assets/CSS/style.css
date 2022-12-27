@@ -90,3 +90,8 @@ body {
     width: 90vw;
     height: 20vh;
 }
+
+.apresentacao__titulo  {
+    padding: 1rem;
+    font-weight: 700;
+}
