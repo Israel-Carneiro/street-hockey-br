@@ -81,3 +81,12 @@ body {
     height: 40vh;
     width: 100vw;
 }
+
+.apresentacao {
+    text-align: center;
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+    border-radius: 15px;
+    width: 90vw;
+    height: 20vh;
+}
