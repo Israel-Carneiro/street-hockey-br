@@ -73,3 +73,8 @@ body {
     background-position: left bottom;
     height: 70vh;
 }
+
+.espaco {
+    height: 40vh;
+    width: 100vw;
+}
