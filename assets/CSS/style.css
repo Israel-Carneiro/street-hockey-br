@@ -43,10 +43,10 @@ body {
     display: none;
     background-color: var(--menu-navegacao);
     color: var(--branco);
-    width: 60vw;
+    width: 80vw;
     position: absolute;
     top: 100%;
-    left: 40%;
+    left: 20%;
 }
 
 .menu__navegacao--lista {
