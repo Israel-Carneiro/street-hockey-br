@@ -89,6 +89,7 @@ body {
     border-radius: 15px;
     width: 90vw;
     height: 20vh;
+    overflow: hidden;
 }
 
 .apresentacao__titulo  {
