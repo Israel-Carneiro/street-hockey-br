@@ -88,11 +88,16 @@ body {
     color: var(--branco);
     border-radius: 15px;
     width: 90vw;
-    height: 20vh;
+    height: 25vh;
     overflow: hidden;
 }
 
 .apresentacao__titulo  {
     padding: 1rem;
     font-weight: 700;
+}
+
+.apresentacao__imagem {
+    width: 100%;
+    filter: opacity(.5);
 }
