@@ -106,4 +106,5 @@ body {
 .apresentacao__texto {
     position: absolute;
     width: 85vw;
+    padding: 3rem 0;
 }
