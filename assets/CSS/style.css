@@ -100,4 +100,9 @@ body {
 .apresentacao__imagem {
     width: 100%;
     filter: opacity(.5);
+    position: relative;
+}
+
+.apresentacao__texto {
+    position: absolute;
 }
