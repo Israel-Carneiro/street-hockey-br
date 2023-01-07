@@ -21,6 +21,6 @@ Vitória, Vila Velha e Serra - ES.
 ```
 
 <h3>Objetivo Principal do projeto:</h3>
-Desenvolvimento e aperfeiçoamento das técnicas envolvidas no uso da tecnologia utilizada durante todo o processo.
+Divulgação do esporte no Brasil
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/Israel-Carneiro/street-hockey-br?style=social)
