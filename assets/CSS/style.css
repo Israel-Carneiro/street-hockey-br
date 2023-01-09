@@ -76,35 +76,3 @@ body {
     background-position: left bottom;
     height: 70vh;
 }
-
-.espaco {
-    height: 40vh;
-    width: 100vw;
-}
-
-.apresentacao {
-    text-align: center;
-    background-color: var(--cinza-escuro);
-    color: var(--branco);
-    border-radius: 15px;
-    width: 90vw;
-    height: 25vh;
-    overflow: hidden;
-}
-
-.apresentacao__titulo  {
-    padding: 1rem;
-    font-weight: 700;
-}
-
-.apresentacao__imagem {
-    width: 100%;
-    filter: opacity(.5);
-    position: relative;
-}
-
-.apresentacao__texto {
-    position: absolute;
-    width: 85vw;
-    padding: 3rem 0;
-}
