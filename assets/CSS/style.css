@@ -8,6 +8,7 @@
 }
 
 body {
+    background-color: var(--cinza-escuro);
     font-family: var(--montserrat);
     font-weight: 500;
 }
@@ -72,6 +73,5 @@ body {
 /* Introdução */
 
 .introducao {
-    background-color: var(--cinza-escuro);
     height: 90vh;
 }
