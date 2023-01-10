@@ -73,5 +73,9 @@ body {
 /* Introdução */
 
 .introducao {
-    height: 90vh;
+    background-image: url(../images/Jogadore-Street-Hockey.svg);
+    background-position: center;
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    height: 24rem;
 }
