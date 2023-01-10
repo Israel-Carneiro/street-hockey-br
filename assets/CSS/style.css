@@ -12,6 +12,8 @@ body {
     font-weight: 500;
 }
 
+/* Cabeçalho */
+
 .cabecalho__menu {
     display: flex;
     justify-content: space-evenly;
@@ -65,6 +67,8 @@ body {
 .botao__menu:checked~.menu__navegacao {
     display: block;
 }
+
+/* Introdução */
 
 .introducao {
     background-color: var(--cinza-escuro);
