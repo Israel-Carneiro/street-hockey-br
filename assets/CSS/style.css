@@ -84,3 +84,9 @@ body {
     color: var(--branco);
     height: 24rem;
 }
+
+.introducao__titulo {
+    font-family: var(--lobster);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
