@@ -88,5 +88,5 @@ body {
 .introducao__titulo {
     font-family: var(--lobster);
     font-size: 2rem;
-    margin-top: 2rem;
+    margin: 2rem 1rem 3rem 1rem;
 }
