@@ -73,9 +73,14 @@ body {
 /* Introdução */
 
 .introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
     background-image: url(../images/Jogadore-Street-Hockey.svg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: 90vw;
-    background-repeat: no-repeat;
+    color: var(--branco);
     height: 24rem;
 }
