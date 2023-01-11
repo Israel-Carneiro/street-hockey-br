@@ -85,6 +85,10 @@ body {
     height: 24rem;
 }
 
+.introducao b {
+    font-weight: 400;
+}
+
 .introducao__titulo {
     font-family: var(--lobster);
     font-size: 2rem;
@@ -93,5 +97,9 @@ body {
 
 .introducao__subtitulo {
     font-size: 1.5rem;
-    margin: 2rem 1rem 0.5rem 1rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+}
+
+.introducao__texto {
+    margin: 0 1rem;
 }
