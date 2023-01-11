@@ -10,7 +10,7 @@
 body {
     background-color: var(--cinza-escuro);
     font-family: var(--montserrat);
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* Cabeçalho */
@@ -86,7 +86,7 @@ body {
 }
 
 .introducao b {
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .introducao__titulo {
@@ -97,6 +97,7 @@ body {
 
 .introducao__subtitulo {
     font-size: 1.5rem;
+    font-weight: 500;
     margin: 1rem 1rem 0.5rem 1rem;
 }
 
