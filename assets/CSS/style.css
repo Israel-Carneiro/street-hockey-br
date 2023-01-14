@@ -125,3 +125,7 @@ b {
 .dark-wolves__logo {
     width: 100vw;
 }
+
+.dark-wolves__texto {
+    margin: 1rem;
+}
