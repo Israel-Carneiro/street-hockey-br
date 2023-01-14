@@ -104,3 +104,10 @@ body {
 .introducao__texto {
     margin: 0 1rem;
 }
+
+/* Dark Wolves */
+
+.dark-wolves {
+    background-color: var(--branco);
+    color: var(--cinza-escuro);
+}
