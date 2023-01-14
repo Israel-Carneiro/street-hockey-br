@@ -82,7 +82,7 @@ body {
     background-position: center;
     background-size: 90vw;
     color: var(--branco);
-    height: 24rem;
+    min-height: 24rem;
 }
 
 b {
