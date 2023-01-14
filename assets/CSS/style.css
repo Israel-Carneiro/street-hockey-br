@@ -108,6 +108,16 @@ body {
 /* Dark Wolves */
 
 .dark-wolves {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
     background-color: var(--branco);
     color: var(--cinza-escuro);
+}
+
+.dark-wolves__titulo {
+    font-family: var(--lobster);
+    font-size: 2rem;
+    margin: 2rem 1rem;
 }
