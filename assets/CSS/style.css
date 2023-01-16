@@ -129,3 +129,14 @@ b {
 .dark-wolves__texto {
     margin: 1rem;
 }
+
+/* Circuito Capixaba */
+
+.circuitoCapixaba {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
