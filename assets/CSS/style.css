@@ -132,11 +132,17 @@ b {
 
 /* Circuito Capixaba */
 
-.circuitoCapixaba {
+.circuito-capixaba {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
     background-color: var(--cinza-escuro);
     color: var(--branco);
+}
+
+.circuito-capixaba__titulo {
+    font-family: var(--lobster);
+    font-size: 2rem;
+    margin: 2rem 1rem;
 }
