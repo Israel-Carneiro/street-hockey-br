@@ -150,3 +150,7 @@ b {
 .circuito-capixaba__imagem {
     width: 95vw;
 }
+
+.circuito-capixaba__texto {
+    margin: 1rem;
+}
