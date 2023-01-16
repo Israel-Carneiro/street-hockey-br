@@ -98,11 +98,11 @@ b {
 .introducao__subtitulo {
     font-size: 1.5rem;
     font-weight: 500;
-    margin: 1rem 1rem 0.5rem 1rem;
+    margin: 0.5rem 1rem;
 }
 
 .introducao__texto {
-    margin: 0 1rem;
+    margin: 0 1rem 0.5rem 1rem;
 }
 
 /* Dark Wolves */
@@ -123,7 +123,7 @@ b {
 }
 
 .dark-wolves__logo {
-    width: 100vw;
+    width: 95vw;
 }
 
 .dark-wolves__texto {
