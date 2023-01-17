@@ -124,6 +124,7 @@ b {
 
 .dark-wolves__logo {
     width: 95vw;
+    align-self: center;
 }
 
 .dark-wolves__texto {
@@ -149,6 +150,7 @@ b {
 
 .circuito-capixaba__imagem {
     width: 95vw;
+    align-self: center;
 }
 
 .circuito-capixaba__texto {
