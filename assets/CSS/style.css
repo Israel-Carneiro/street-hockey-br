@@ -131,6 +131,13 @@ b {
     margin: 1rem;
 }
 
+.dark-wolves__video {
+    width: 90%;
+    border-radius: 16px;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
 /* Circuito Capixaba */
 
 .circuito-capixaba {
