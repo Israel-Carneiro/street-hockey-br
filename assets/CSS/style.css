@@ -112,7 +112,7 @@ b {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: var(--branco);
+    background: linear-gradient(180deg, var(--cinza-escuro) 0%, var(--branco) 15%);
     color: var(--cinza-escuro);
 }
 
@@ -138,7 +138,7 @@ b {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background-color: var(--cinza-escuro);
+    background: linear-gradient(180deg, var(--branco) 0%, var(--cinza-escuro) 15%);
     color: var(--branco);
 }
 
