@@ -89,20 +89,20 @@ b {
     font-weight: 700;
 }
 
-.introducao__titulo {
+.titulo {
     font-family: var(--lobster);
     font-size: 2rem;
     margin: 2rem 1rem;
 }
 
-.introducao__subtitulo {
+.subtitulo {
     font-size: 1.5rem;
     font-weight: 500;
-    margin: 0.5rem 1rem;
+    margin: 0 1rem;
 }
 
-.introducao__texto {
-    margin: 0 1rem 0.5rem 1rem;
+.texto {
+    margin: 1rem;
 }
 
 /* Dark Wolves */
@@ -116,19 +116,9 @@ b {
     color: var(--cinza-escuro);
 }
 
-.dark-wolves__titulo {
-    font-family: var(--lobster);
-    font-size: 2rem;
-    margin: 2rem 1rem;
-}
-
-.dark-wolves__logo {
+.imagem {
     width: 95vw;
     align-self: center;
-}
-
-.dark-wolves__texto {
-    margin: 1rem;
 }
 
 .dark-wolves__video {
@@ -147,21 +137,6 @@ b {
     text-align: center;
     background: linear-gradient(180deg, var(--branco) 0%, var(--cinza-escuro) 15%);
     color: var(--branco);
-}
-
-.circuito-capixaba__titulo {
-    font-family: var(--lobster);
-    font-size: 2rem;
-    margin: 2rem 1rem;
-}
-
-.circuito-capixaba__imagem {
-    width: 95vw;
-    align-self: center;
-}
-
-.circuito-capixaba__texto {
-    margin: 1rem;
 }
 
 /* Modalidades */
