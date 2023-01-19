@@ -13,7 +13,7 @@ Vitória, Vila Velha e Serra - ES.
 <h4>Ao decorrer dos tópicos serão abordados temas como:</h4>
 
 ```
--As diferenças entre as modalidades de Hockey na rua, no gelo, em linha e na grama;
+-As diferenças entre as modalidades de Hockey na rua, em linha e na grama;
 -As regras que definem o Street Hockey;
 -Os equipamentos essenciais e opcionais para os jogadores;
 -Informações a respeito do Circuito Capixaba e suas Etapas periódicas;
