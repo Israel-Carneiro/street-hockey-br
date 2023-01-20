@@ -149,3 +149,14 @@ b {
     background: linear-gradient(180deg, var(--cinza-escuro) 0%, var(--branco) 25%);
     color: var(--cinza-escuro);
 }
+
+/*Contato*/
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(180deg, var(--branco) 0%, var(--cinza-escuro) 15%);
+    color: var(--branco);
+}
