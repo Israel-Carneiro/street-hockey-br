@@ -157,6 +157,6 @@ b {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    background: linear-gradient(180deg, var(--branco) 0%, var(--cinza-escuro) 15%);
+    background: linear-gradient(180deg, var(--branco) 0%, var(--cinza-escuro) 45%);
     color: var(--branco);
 }
