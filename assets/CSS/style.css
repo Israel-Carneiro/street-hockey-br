@@ -154,13 +154,15 @@ b {
 
 .contato {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     text-align: center;
     background: linear-gradient(180deg, var(--branco) 0%, var(--cinza-escuro) 45%);
     color: var(--branco);
 }
 
-.contato__titulo {
-    width: 100%;
+.contato__box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
