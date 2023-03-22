@@ -24,3 +24,13 @@ Vitória, Vila Velha e Serra - ES.
 Divulgação do esporte no Brasil
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/Israel-Carneiro/street-hockey-br?style=social)
+
+## Autor
+
+### Israel Carneiro de Oliveira
+ 
+<table border: none;" border="0" cellpadding="0">
+ <td>
+  <img width="200px" src="https://avatars.githubusercontent.com/u/113190387?s=400&u=3c497e66670ff827854b02bfd769529a19c9b5b1&v=4" rel="foto Israel Carneiro" />
+ </td>
+</table>
