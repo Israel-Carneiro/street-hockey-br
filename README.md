@@ -33,4 +33,10 @@ Divulgação do esporte no Brasil
  <td>
   <img width="200px" src="https://avatars.githubusercontent.com/u/113190387?s=400&u=3c497e66670ff827854b02bfd769529a19c9b5b1&v=4" rel="foto Israel Carneiro" />
  </td>
+ <td>
+  <h4>Contatos</h4><br>
+  <a href="https://www.linkedin.com/in/ israel-carneiro-de-oliveira" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" rel="LinkedIn" /></a><br>
+  <a href="https://instagram.com/webcarneiro" target="_blank"><//img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" rel="Instagran" /></a><br>
+  <a href="https://www.frontendmentor.io/profile/Israel-Carneiro" target="_blank"><img src="https://img.shields.io/badge/-Frontend%20Mentor-5F3DC4?style=for-the-badge&logo=FrontendMentor&logoColor=white&link=" rel="FrontEnd Mentor" /><a>
+ </td>
 </table>
