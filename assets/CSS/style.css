@@ -1,5 +1,6 @@
 :root {
     --branco: #FFFFFF;
+    --cinza-claro: #404040;
     --cinza-escuro: #1a2025;
     --menu-navegacao: #15191ceb;
     --preto-sombra: rgba(0, 0, 0, 0.6);
@@ -19,7 +20,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cinza-escuro);
+    background-color: var(--cinza-claro);
     box-shadow: 0px 8px 4px var(--preto-sombra);
     color: white;
     height: 5rem;
@@ -102,7 +103,7 @@ b {
 }
 
 .texto {
-    margin: 1rem;
+    margin: 0 1rem 2rem 1rem;
 }
 
 /* Dark Wolves */
