@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--cinza-claro);
+    background-color: var(--cinza);
     box-shadow: 0px 8px 4px var(--preto-sombra);
     color: white;
     height: 5rem;
