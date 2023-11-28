@@ -1,3 +1,9 @@
+body {
+    background-color: var(--verde-primavera);
+    font-family: var(--montserrat);
+    font-weight: 400;
+}
+
 .classificacao {
     margin: 2rem 1rem;
 }
