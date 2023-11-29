@@ -4,9 +4,11 @@
 
 :root {
     --branco: #FFFFFF;
-    --cinza-claro: #404040;
+    --cinza-claro: #B9B9B9;
+    --cinza: #404040;
     --cinza-escuro: #1a2025;
     --menu-navegacao: #15191ceb;
+    --verde-primavera: #019934;
     --preto-sombra: rgba(0, 0, 0, 0.6);
     --montserrat: 'Montserrat';
     --lobster: 'Lobster';
