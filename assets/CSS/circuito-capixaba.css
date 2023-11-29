@@ -1,7 +1,19 @@
 body {
     background-color: var(--verde-primavera);
     font-family: var(--montserrat);
-    font-weight: 400;
+    font-weight: 500;
+}
+
+.titulo {
+    text-align: center;
+    font-family: var(--lobster);
+    font-size: 3rem;
+    -webkit-text-stroke: 1px var(--branco);
+    margin: 1rem;
+}
+
+.subtitulo {
+    text-align: center;
 }
 
 .classificacao {
@@ -17,6 +29,7 @@ body {
 .jogador {
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 
 .jogador_classificacao {
