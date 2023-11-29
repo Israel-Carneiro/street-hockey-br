@@ -8,11 +8,10 @@ body {
     margin: 2rem 1rem;
 }
 
-.jogadores {
+.quadro {
     border-radius: 16px;
     background-color: var(--branco);
-    margin: 1rem 0;
-    padding: .5rem;
+    margin: 2.5rem 0;
 }
 
 .jogador {
@@ -21,15 +20,15 @@ body {
 }
 
 .jogador_classificacao {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-left: 1rem;
 }
 
 .jogador_img {
     border-radius: 50%;
-    border: 5px solid var(--cinza-escuro);
+    border: 7px solid var(--verde-primavera);
     height: 96px;
-    margin: -1rem .5rem 1rem .5rem;
+    margin: -2rem .5rem 1rem .5rem;
 }
 
 .jogador_nome {
