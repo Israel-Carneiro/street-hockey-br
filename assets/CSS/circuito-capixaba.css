@@ -37,4 +37,14 @@ body {
 
 .status {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.status_rodada {
+    border-radius: 1rem;
+    background-color: var(--cinza-claro);
+    margin: .5rem .7rem;
+    padding: .5rem;
+    min-width: 5rem;
 }
